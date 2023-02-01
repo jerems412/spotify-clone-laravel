@@ -1,0 +1,820 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gotham','Gotham-Bold';
+  font-weight: 300;
+  display: flex;
+}
+
+.container {
+  width: 100%;
+  min-width: 100%;
+}
+
+//Footer
+
+.footerHome {
+  padding: 50px 30px 20px 30px;
+}
+
+.footerHome footer {
+  display: block;
+  width: 100%;
+  color: white;
+  font-weight: 400;
+  bottom: 0;
+  padding-bottom: 3%;
+}
+
+.footerHome .logo,.footerHome .list, .footerHome .socialMedia {
+  display: flex;
+}
+
+.footerHome footer .logo {
+  display: block;
+  box-sizing: border-box;
+  justify-content: left;
+  margin: 10% 0 0 0;
+  padding-top: 6%;
+}
+
+.footerHome footer .logo span {
+  color: white;
+  margin-left: 7%;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.footerHome footer .list {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  margin-left: -15%;
+  margin-top: -7.2%;
+}
+
+.footerHome footer .list::before, .footerHome footer .list::after {
+  box-sizing: border-box;
+}
+
+.footerHome footer .list dl {
+  padding: 15px;
+  display: block;
+}
+
+.footerHome footer .list dt {
+  margin: 50px 0 22px;
+  color: #919496;
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 1.4;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  display: block;
+}
+
+.footerHome footer .list dd {
+  display: block;
+  margin-inline-start: 40px;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.footerHome footer .socialMedia {
+  margin: 0 0 0 78%;
+  display: block;
+}
+
+.footerHome footer .socialMedia::before, .footerHome footer .socialMedia::after {
+  box-sizing: border-box;
+}
+
+.footerHome footer .socialMedia ul {
+  margin-top: -5%;
+  padding: 0;
+  display: block;
+  list-style-type: disc;
+  padding-inline-start: 40px;
+  list-style-type: disc;
+}
+
+.footerHome footer .socialMedia ul li {
+  margin-right: 15px;
+  display: inline-block;
+  text-align: -webkit-match-parent;
+  font-size: 30px;
+}
+
+.footerHome footer .socialMedia ul li:hover {
+  color: #1ed760;
+  cursor: pointer;
+}
+
+.footerHome footer .socialMedia ul li span {
+  display: block;
+  background: #2c2c2c;
+  border-radius: 40px;
+  padding: 12px 20px;
+}
+
+.footerHome footer .country {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px;
+  color: #919496;
+  font-size: 12px;
+  font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+  font-weight: 400;
+} 
+
+.footerHome footer .year {
+  display: flex;
+  margin-right: 30px;
+}
+
+.footerHome footer .year ul {
+  padding: 0 0 0 15px;
+  display: block;
+  list-style-type: disc;
+  padding-inline-start: 40px;
+}
+
+.footerHome footer .year ul li {
+  margin-right: 24px;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+  line-height: normal;
+  letter-spacing: 0;
+  text-align: -webkit-match-parent;
+  color: #919496;
+  font-size: 12px;
+  font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+  font-weight: 400;
+}
+
+.footerHome footer .year span {
+  margin: 2px 2px 10px auto;
+  padding: 1em 0;
+  font-size: 12px;
+  color: #919496;
+}
+
+.footerHome footer .list dd:hover,.footerHome footer .year ul li:hover,.footerHome footer .country p:hover {
+  color: #1ed760;
+  cursor: pointer;
+}
+
+
+//menu
+
+.menu {
+  width: 100%;
+  align-items: center;
+  position: relative;
+  top: 0;
+}
+
+.menu nav {
+  right: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  height: 13vh;
+  align-items: center;
+  max-width: 1500px;
+}
+
+.menu nav span {
+  color: white;
+  margin-left: 7%;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.menu nav ul {
+  display: block;
+  list-style-type: disc;
+  margin-left: 32%;
+}
+
+.menu nav ul li {
+  margin-right: 26px;
+  list-style: none;
+  display: inline-block;
+  line-height: normal;
+  letter-spacing: 0;
+  text-align: -webkit-match-parent;
+  color: whitesmoke;
+  font-size: 18px;
+}
+
+.menu nav ul li a {
+  text-decoration: none;
+  letter-spacing: 0;
+  text-align: -webkit-match-parent;
+  color: whitesmoke;
+  font-size: 16px;
+  font-family: Circular,spotify-circular,Helvetica,Arial,sans-serif;
+  font-weight: bold;
+}
+
+.menu nav ul li a:hover {
+  color: #1ed760;
+}
+
+//Ecouter
+
+.container .ecouter {
+  width: 100%;
+  display: flex;
+  text-align: center;
+}
+
+.ecouter .content {
+  width: 100%;
+  text-align: center;
+}
+
+.ecouter h1 {
+  font-size: 136px;
+  color: #1ed760;
+}
+
+.ecouter h4 {
+  color: #1ed760;
+  margin-top: -4%;
+}
+
+.ecouter a {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+  border: 0px;
+  border-radius: 500px;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  padding: 15px 30px; 
+  align-self: center;
+  background: #1ed760;
+  color: rgb(41, 65, 171);
+  text-decoration: none;
+}
+
+.ecouter a:hover {
+  transform: scale(1.05);
+}
+
+//telecharger
+
+.container .part1 {
+  display: flex;
+  width: 100%;
+  text-align: center;
+}
+
+.container .part1 .content {
+  width: 100%;
+  text-align: center;
+  padding: 8% 0 8% 0;
+}
+
+.container .part1 .content img {
+  width: 125px;
+}
+
+.container .part1 .content h1 {
+  font-size: 48px;
+}
+
+.container .part1 .content h1 {
+  font-size: 48px;
+}
+
+.container .part1 .content p {
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+  margin-top: -1px;
+  margin-bottom: 0px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: inherit;
+}
+
+.container .part1 .content a {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+  border: 0px;
+  border-radius: 500px;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  padding: 14px 30px; 
+  align-self: center;
+  background: white;
+  color: black;
+  text-decoration: none;
+  margin-top: 36px;
+}
+
+.container .part1 .content a:hover {
+  transform: scale(1.05);
+}
+
+.container .part2 {
+  display: flex;
+  width: 100%;
+  text-align: center;
+}
+
+.container .part2 .content {
+  width: 100%;
+  text-align: center;
+  padding: 8% 0 8% 0;
+}
+
+.container .part2 .content .haut h3 {
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.5px;
+  box-sizing: border-box;
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  padding: 0px 0px 0.75em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 28px;
+  font-weight: 900;
+  letter-spacing: -0.25px;
+  line-height: 36px;
+  color: inherit;
+}
+
+.container .content .haut p {
+  box-sizing: border-box;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    padding: 0px 0px 1em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: inherit;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.container .content .bas {
+  margin-top: -1.5%;
+}
+
+//part3 
+
+.container .part3 {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+}
+
+.container .part3 .content {
+  width: 100%;
+  text-align: center;
+  padding: 8% 0 0 0;
+  bottom: 0;
+}
+
+.container .part3 .content h3 {
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.5px;
+  box-sizing: border-box;
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  display: block;
+  padding: 0px 0px 0.75em;
+  margin-top: 30px;
+  margin-bottom: 0px;
+  font-weight: 900;
+  color: white;
+}
+
+.container .part3 .content ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  text-align: center;
+}
+
+.container .part3 .content ul li {
+  display: inline-block;
+  margin-top: -6px;
+  color: white;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  padding: 0px 0px 1em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  margin-right: 30px;
+}
+
+.container .part3 .content ul li a {
+  color: #1ed760;
+  opacity: 0.8;
+}
+
+.container .part3 .content ul li a:hover {
+  opacity: 1;
+}
+
+//assistance
+
+.container .part1Assistance {
+  width: 100%;
+  display: flex;
+}
+
+.container .part1Assistance .content {
+  width: 100%;
+  top: 0;
+  text-align: center;
+  justify-content: center;
+  padding-top: 8%;
+  padding-bottom: 7%;
+}
+
+.container .part1Assistance .content h1 {
+  font-size: 64px;
+  line-height: 72px;
+  color: whitesmoke;
+  letter-spacing: -0.04em;
+  text-transform: none;
+  font-weight: 700;
+  box-sizing: border-box;
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.container .part1Assistance .content input {
+  border-radius: 4px;
+  border: 0px;
+  width: 60%;
+  height: 8vh;
+  box-sizing: border-box;
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+  background-color: var(--background-base,#ffffff);
+  box-shadow: inset 0 0 0 1px var(--essential-subdued,#878787);
+  color: var(--text-base,#000000);
+  outline: none;
+  padding-left: 50px;
+  margin: 2% 0 2% 0;
+  font-size: 14px;
+}
+
+.container .part1Assistance .content .list dl {
+  display: block;
+  margin-top: 3%;
+}
+
+.container .part1Assistance .content .list dt {
+  color: #919496;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  display: block;
+  font-weight: bold;
+}
+
+.container .part1Assistance .content .list dd {
+  display: block;
+  margin-inline-start: 40px;
+  color:whitesmoke;
+  font-weight: bold;
+}
+
+.container .part1Assistance .content .list {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+}
+
+.container .part1Assistance .content .list dd:hover {
+  text-decoration: underline;
+  color:whitesmoke;
+  cursor: pointer;
+}
+
+//assistance div 2
+
+
+.container .part2Assistance .content .list1 dl,.container .part2Assistance .content .list2 dl {
+  display: block;
+  margin-top: 3%;
+}
+
+.container .part2Assistance .content .list1 dt,.container .part2Assistance .content .list2 dt {
+  color: black;
+  font-size: 20px;
+  line-height: 1.4;
+  display: block;
+  font-weight: bold;
+  margin-right: 5%;
+}
+
+.container .part2Assistance .content .list1 dd,.container .part2Assistance .content .list2 dd {
+  display: block;
+  margin-inline-start: 40px;
+  color:#117a37;
+  font-weight: bold;
+  text-align: -webkit-match-parent;
+  margin-inline-start: 40px;
+  margin: 5% 0 5% 0;
+}
+
+.container .part2Assistance .content .list1,.container .part2Assistance .content .list2 {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  margin-left: 4%;
+}
+
+.container .part2Assistance .content .list1 dd:hover,.container .part2Assistance .content .list2 dd:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+//part3 assistance
+
+.container .part3Assistance {
+  width: 100%;
+  display: flex;
+}
+
+.container .part3Assistance .content {
+  width: 100%;
+  top: 0;
+  text-align: center;
+  justify-content: center;
+  padding-top: 5%;
+}
+
+.container .part3Assistance .content a {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+  border: 0px;
+  border-radius: 500px;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  padding: 14px 30px; 
+  align-self: center;
+  background: #1ed760;
+  color: black;
+  text-decoration: none;
+  margin-top: 36px;
+}
+
+.container .part3Assistance .content a:hover {
+  transform: scale(1.05);
+}
+
+.container .part3Assistance .content h1 {
+  font-size: 40px;
+}
+
+.container .part3Assistance .content p {
+  font-weight: bold;
+}
+
+
+//premium
+
+.container .part1Premium {
+  width: 100%;
+  display: flex;
+}
+
+.container .part1Premium .content {
+  width: 100%;
+  top: 0;
+  text-align: left;
+  justify-content: left;
+  padding-top: 3%;
+  padding-bottom: 7%;
+}
+
+.container .part1Premium .content .part1 h1 {
+  font-size: 56px;
+  color: whitesmoke;
+  letter-spacing: -0.04em;
+  text-transform: none;
+  font-weight: 700;
+  box-sizing: border-box;
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  margin-left: 8%; 
+}
+
+.container .part1Premium .content .part1 p {
+  font-size: 24px;
+  color: whitesmoke;
+  letter-spacing: -0.04em;
+  text-transform: none;
+  box-sizing: border-box;
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  margin-top: 2%;
+  margin-left: 8%;
+}
+
+.container .part1Premium .content .part2 a {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+  border: solid 1px white;
+  border-radius: 500px;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  padding: 14px 30px; 
+  align-self: center;
+  color: black;
+  text-decoration: none;
+  margin-top: 36px;
+  margin-right: -7%;
+  margin-left: 8%;
+}
+
+.container .part1Premium .content .part2 a:hover {
+  transform: scale(1.05);
+}
+
+.container .part1Premium .content .part3 p {
+  font-size: 11px;
+  color: whitesmoke;
+  text-transform: none;
+  box-sizing: border-box;
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  margin-top: 4%;
+  margin-bottom: 0px;
+  margin-left: 8%;
+}
+
+.container .part1Premium .content .part3 a {
+  font-size: 11px;
+  color: whitesmoke;
+  text-transform: none;
+  box-sizing: border-box;
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+
+.container .part2Premium {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .part2Premium .content .gauche {
+  justify-content: left;
+  color: white;
+  float: left;
+}
+
+.container .part2Premium .content .droite {
+  justify-content: right;
+  float: right;
+}
+
+.container .part2Premium .content .droite img {
+  margin-top: -20%;
+  width: 100%;
+  height: 338px;
+}
+
+.container .part2Premium .content .gauche h2 {
+  font-size: 30px;
+}
+
+.container .part2Premium .content .gauche ul {
+  font-size: 24px;
+  font-weight: 400;
+  margin-left: -2%;
+  line-height: 45px;
+}
+
+.container .part2Premium .content .gauche li {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.container .part2Premium .content .gauche p {
+  font-size: 16px;
+}
+
+.container .part3Premium {
+  padding-top: 10%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .part3Premium .content .droite {
+  justify-content: right;
+  color: white;
+  float: right;
+  width: 45%;
+  padding-right: 8%;
+}
+
+.container .part3Premium .content .gauche {
+  justify-content: left;
+  float: left;
+  width: 38%;
+  padding-right: 2%; 
+  padding-left: 7%; 
+}
+
+.container .part3Premium .content .gauche img {
+  width: 100%;
+  height: 338px;
+}
+
+.container .part3Premium .content .droite h2 {
+  font-size: 30px;
+}
+
+.container .part3Premium .content .droite ul {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 45px;
+}
+
+.container .part3Premium .content .droite li {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.container .part3Premium .content .droite p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+//part4
+
+
+.container .part4Premium {
+  width: 100%;
+  display: flex;
+}
+
+.container .part4Premium .content {
+  width: 100%;
+  top: 0;
+  text-align: center;
+  justify-content: center;
+  padding-top: 3%;
+}
+
+.container .part4Premium .content h1 {
+  color: white;
+  font-size: 42px;
+}
+
+.container .part4Premium .content h3 {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}

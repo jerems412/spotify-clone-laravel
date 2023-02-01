@@ -1,0 +1,187 @@
+.container {
+    width: 100%;
+    display: flex;
+    padding-bottom: 10%;
+}
+
+.logo {
+    font-size: 40px;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+
+.container .content {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.container .content .sites {
+    width: 100%;
+}
+
+.container .content .sites a {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    border-radius: 500px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    padding: 14px 20px; 
+    width: 28%;
+    align-self: center;
+    color: whitesmoke;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.container .content .sites a:hover {
+    transform: scale(1.05);
+}
+
+.container .content .sites span {
+    display: flex;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    justify-content: center;
+}
+
+.container .content .sites span hr {
+    width: 14%;
+    margin: 12px 0px 20px;
+    border-top: 2px solid rgb(217, 218, 220);
+}
+
+.container .content .form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container .content .form form {
+    width: 100%;
+    justify-content: center;
+    padding: 0 35% 0 35%;
+}
+
+.container .content .form form label,.container .content .form form input {
+    float: left;
+}
+
+.container .content .form form label {
+    font-size: 14px;
+    font-weight: 550;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    margin: 2% 0 2% 0;
+}
+
+.container .content .form form input {
+    font-size: 16px;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    width: 100%;
+    height: 8vh;
+    border-radius: 2px;
+    border: 1px solid gray;
+    padding: 0 0 0 10px;
+    outline: none;
+}
+
+.container .content .form form label a {
+    color: black;
+    font-weight: 350;
+    text-decoration: none;
+}
+
+.container .content .form form label a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.container .content .form form div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .content .form form .logDiv input[type="checkbox"],.container .content .form form .sexe input[type="checkbox"]{
+    width: 18px;
+    float: left;
+    margin-top: -4%;
+    margin-left: -2%;
+}
+
+.container .content .form form div input[type="submit"]{
+    width: 200px;
+    text-align: center;
+    float: right;
+    border: 0;
+    background-color: #1ed760;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 650;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.container .content .form form .logDiv label,.container .content .form form .sexe label {
+    font-size: 14px;
+    font-weight: 350;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    margin-top: -3%;
+    margin-right: 15%;
+}
+
+.container .content .form form {
+    font-size: 13.5px;
+    font-weight: 350;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+
+.container .content .form form .jnp {
+    color: #878787;
+    font-weight: 650;
+    text-decoration: none;
+    display: block;
+    border: 1px solid black;
+    padding: 5%;
+    border-radius: 25px;
+    letter-spacing: 1px;
+}
+
+.container .content .form form .jnp:hover {
+    transform: scale(1.05);
+}
+
+//s'inscrire
+
+.container .content .form form .accept input[type="checkbox"]{
+    width: 18px;
+    float: left;
+    margin-top: -4%;
+    margin-left: -2%;
+}
+
+.container .content h1 {
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+
+.container .content .form form p {
+    font-size: 11.5px;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+
+.container .content .form form p a {
+    opacity: 0.9;
+    color: #117a37;
+    font-size: 11.5px;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+
+.container .content .form form p a:hover {
+    opacity: 1;
+}
