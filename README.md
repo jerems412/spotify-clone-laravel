@@ -1,3 +1,3 @@
-<video width="320" height="240" controls>
+<video width="220" height="140" controls>
   <source src="spotify.mkv" type="video/mkv">
 </video>
